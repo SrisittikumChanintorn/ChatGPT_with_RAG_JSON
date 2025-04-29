@@ -1,6 +1,6 @@
 # ChatGPT with RAG JSON
 
-This project implements a specialized chatbot system that combines Large Language Models (Claude) with Retrieval Augmented Generation (RAG) using JSON data sources to create domain-specific conversational agents.
+This project implements a specialized chatbot system that combines Large Language Models (ChatGPT) with Retrieval Augmented Generation (RAG) using JSON data sources to create domain-specific conversational agents.
 
 ## Project Overview
 
@@ -37,7 +37,7 @@ This repository demonstrates the system with a fruit shop chatbot that can:
 4. **Vectorization**: Text chunks are converted to vector embeddings
 5. **Vector Storage**: Embeddings are stored in a vector database for efficient retrieval
 6. **Query Processing**: When a user asks a question, relevant information is retrieved from the vector database
-7. **Augmented Response**: The LLM (Claude) generates responses using both its base knowledge and the retrieved information
+7. **Augmented Response**: The LLM (ChatGPT) generates responses using both its base knowledge and the retrieved information
 
 ## Setup 🛠️
 
