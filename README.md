@@ -59,8 +59,8 @@ pip install -r requirements.txt
 
 5. Configure API key 🔑
 ```bash   
-# Set the API key for Anthropic 
-CLAUDE_API_KEY = 'YOUR_API_KEY'  # Replace with your actual API key
+# Generate API KEY from website and define as a variable.
+os.environ["OPENAI_API_KEY"] = "YOUR_API_KEY"   # Replace with your actual  API key
 ```
 
 6. Run the analysis ▶️
