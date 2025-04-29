@@ -11,7 +11,7 @@ from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from chatbot import * 
 
 
-# Generate API KEY from Claude and OpenAI website and define as a variable.
+# Generate API KEY from website and define as a variable.
 os.environ["OPENAI_API_KEY"] = "YOUR_API_KEY"   # Replace with your actual  API key
 
 
